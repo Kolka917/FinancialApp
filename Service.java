@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Praktikum {
+public class Service {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Praktikum {
 
         Converter converter = new Converter(78.5,88.7,0.75);
         DinnerAdvisor dinnerAdvisor = new DinnerAdvisor();
-        ExpensesManager expensesManager = new ExpensesManager(); // Здесь создайте объект класса ExpensesManager
+        ExpensesManager expensesManager = new ExpensesManager();
 
         while (true) {
             printMenu();
